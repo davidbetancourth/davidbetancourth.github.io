@@ -1,0 +1,371 @@
+<!DOCTYPE HTML>
+<!--
+	Ethereal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Upsweep Network 101</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:100" rel="stylesheet">
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+
+
+						<!-- Panel (Banner) -->
+						<section class="panel spotlight medium right" id="first">
+								<div class="content span-7-90">
+<h2 class="major">Here lies equilibrium, among strategy and human greed.</h2>
+<p> Upsweep is a partial-information, zero-sum game designed from scratch for the Ethereum Blockchain.
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/001.gif" alt="" />
+								</div>
+						</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">The Upsweep Network </h2>
+									<p>Welcome to the upsweep, a public and open network of 660 computer nodes arranged in a 2-dimensional graph. The objective of the game is to take over the network and mine as many sweeps as possible. However, the incentive goes beyond a sustainable gamble. Sweeps are an efficient store of value; free of speculation and always liquid.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/002.gif" alt="" />
+								</div>
+							</section>
+
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5-5">
+									<h2 class="major">Mining Mechanics</h2>
+									<p>Mining sessions are scheduled by <b>the upsweep clock</b> and executed by <b>the upsweep contract</b> self-enforcing code that will always behave as expected. For each session, the contract will grant 60 players with remote access to the network. Before the competition begins, players will privately request a specific node (out of the 660 possible nodes) by sending the given (x,y) coordinate as a hash to the contract, after this, the competition will begin with a pre-committed and hidden distribution of 60 <b>parent nodes</b>. All players that went over the list will be included in a new list for the next session. </p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/003.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7-90">
+									<h2 class="major">Account Limits</h2>
+							    <p>One single ethereum account can request up to 5 parent nodes for each session, but each request is a transaction on its own that must include a stake in ether that will serve as the <b>weight</b> of the node inside the network.<br>
+Players are only aware of their own node's position(s), and because every request is a secret and independent event, distributions are unpredictable. 
+ 
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/004.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7-90">
+									<h2 class="major">Upsweep Private Clusters</h2>
+							    <p>Mining requires computational power, but one node is not enough. Players will attempt to form their own <b>upsweep private clusters</b> to fulfill the computational requirements. A minimum of 10 nodes must be allocated in order to participate in the mining race, but because players are only provided with a single parent node; they can request nearby and unused nodes to the network as soon as the competition begins.
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/005.gif" alt="" />
+								</div>
+							</section>	
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major"></h2>
+									<p>All 660 nodes will appear as unused at the start of every competition, even pre-committed parent nodes. Players will decide if they want to activate their own parent node(s) or not, but to do so, they must select at least 9 more <b>child nodes</b> to meet the cluster requirement. Each of this child nodes will inherit their given parent node's data, and supply the cluster with identical computational power. Therefore, the total computational resources on a given cluster are equal to the weight of the parent node times the number of child nodes linked.<br>
+The order of events in a mining session is controlled by the upsweep clock and its internal protocol.
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/006.gif" alt="" />
+								</div>
+							</section>
+
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7">
+									<h2 class="major">The Upsweep Clock</h2>
+							    <p>The upsweep network needs a unique timepiece to achieve equilibrium. The blockchain exists in discrete states called "blocks", and blocks happen to obey causality. On average, there is an interval of 15 seconds between blocks, during this period, players send transactions to the contract and influence the state of the next block. This time distortion between earth and the blockchain opens a channel for decision-making.<br> 
+The upsweep clock is a key component of the contract. In a countdown fashion, it mimics the "holding" and "counting" scheme of NASA's countdown clock.<br>
+The upsweep clock repeats the following protocol in cycles, each cycle being an independent mining session:
+
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/007.gif" alt="" />
+								</div>
+							</section>
+
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-8-9">
+
+																			<h4>E-30 blocks and holding</h4>
+										<ul>
+											<li>The contract is waiting for the full list of 60 parent nodes.</li>
+										</ul>
+
+										<h4>E-30 blocks and counting</h4>
+										<ul>
+											<li>Parent nodes have access to all <i>limited</i> resources of the upsweep network; they can request child nodes, activate clusters and prepare for mining execution.</li>
+
+										</ul>
+
+										<h4>E-0</h4>
+										<ul>
+											<li>No new clusters allowed </li>
+											<li>Existing clusters will execute mining operations according to their computational resources.
+</li>
+											<li>A new batch of sweeps will be created for every cluster. </li>
+											<li>Remote access expires for the current players and all node's data is erased for the next session. </li>
+										</ul>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/004.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7-90">
+									<h2 class="major"></h2>
+							    <p>Because parent nodes cannot mine without additional resources, players are in constant competition to form powerful clusters out of a limited set of 660 nodes. Creating a cluster is pretty easy, as soon as the upsweep clock hits the "E-30 blocks and counting" milestone, you can send transactions to the contract and request nodes. At E-0, no more requests are allowed and only existing clusters will be able to mine sweeps.<br>
+A formal request includes (x,y) coordinates for each child node that will be linked to the given parent node. If a valid request is received at block n, the cluster will be created at block n+1.
+
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/005.gif" alt="" />
+								</div>
+							</section>	
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-9">
+									<h2 class="major">Rules for clusters</h2>
+									<ol>
+										<li>Child nodes must connect to their parent node and all nodes must be connected by straight lines.</li>
+									</ol>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/008.gif" alt="" />
+								</div>
+							</section>		
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-9">
+									
+									<ol start="2">
+										<li>A minimum of 10 nodes must be connected to form a cluster.</li>
+									</ol>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/009.gif" alt="" />
+								</div>
+							</section>
+
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-9">
+									
+									<ol start="3">
+										<li>A single parent node can request up to 25 nodes.</li>
+									</ol>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/010.gif" alt="" />
+								</div>
+							</section>
+
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-9">
+									
+									<ol start="4">
+										<li>If two or more players request the same node(s) at the same time (block), the parent node with the greater weight will be granted the given node(s). If parent nodes have equal weight, the node(s) will be granted to the request that results in a bigger cluster. If requests are equal, the node(s) will not be included in any of the clusters.</li><br>
+									</ol>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/011.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-9">
+									
+									<ol start="5">
+										<li>If two or more players share the same parent node coordinate and they create a cluster at the same time (block), the cluster of the parent node with the greater weight will exist and the other(s) will not. If weights are equal, the request that results in a bigger cluster will exist and the other(s) will not. If requests are equal, none of the clusters will exist.</li>
+									</ol>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/012.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-9">
+									
+									<ol start="6">
+										<li>Clusters can exist without their parent node, as long as they meet the minimum requirement of 10 nodes.</li>
+									</ol>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/013.gif" alt="" />
+								</div>
+							</section>
+
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">Overwriting Nodes</h2>
+									<p>The hidden distribution of parent nodes creates panic. Players have two options, to either request and create their own cluster, or wait for other parent nodes to create a cluster that includes the node that they have remote access to. This is possible because parent nodes that are not part of a cluster will appear as unused and can be requested by other parent nodes.<br>
+If a parent node creates a cluster and includes your node, you can overwrite that child node's data and join the cluster as a <b>sibling node</b>. This type of node plays a key role in the game. A sibling node will supply the cluster with a computational power equal to its weight.
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/014.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7-90">
+									<h2 class="major">Cluster Reward</h2>
+							    <p>Mining gains depend on the computational power of the cluster. The reward of sweeps equals the weight of the parent node times the number of child nodes plus the weight of sibling nodes (if any).</p>
+
+							    <pre><code>sweeps_reward = (parentnode.weight * childnodes) + siblingnodes.weight
+</code></pre>
+
+							    <p>If there is sibling nodes in the cluster, parent and sibling nodes will share the reward according to their weight.</p>
+
+							    <pre><code>total_weight = parentnode.weight + siblingnodes.weight
+parentnode_reward = (parentnode.weight / total_weight) * sweeps_reward
+siblingnode_reward = (siblingnode.weight / total_weight) * sweeps_reward
+</code></pre>
+
+
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/005.gif" alt="" />
+								</div>
+							</section>
+
+
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7-90">
+									<h2 class="major">Every player is better off alone</h2>
+							    <p>A cluster with sibling nodes might not be the best outcome but is not the worst. On the other hand, players that don't create clusters and are not included in any clusters will lose their stake.
+
+
+
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/004.gif" alt="" />
+								</div>
+							</section>	
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7-90">
+									<h2 class="major">Fear of Exclusion</h2>
+							    <p>The worst case scenario is to lose your stake, all of it. But this is only possible if you don't create a cluster or if you are not included as a sibling node in any other cluster. The later is not up to you and unfortunately, not being able to create a cluster is very plausible.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/005.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">Invalid Cluster</h2>
+									<p>If your cluster overlaps with another cluster and you lose nodes, there is a chance of not meeting the cluster requirements and losing your stake.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/015.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">Claustrophobia</h2>
+									<p>If you wait for other players to take initiative, you might end up in an uncomfortable position where there are not enough nodes nearby to meet the cluster requirement of 10 nodes. </p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/17.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7-90">
+									<h2 class="major">Maximum Weight Rule</h2>
+							    <p>Upsweep is a game of timing. Players will rationalize that their best strategy is to race and create big clusters before nodes run out, but if everybody is rushing, overlaps will most certainly happen and only those with higher stakes will be less affected. Therefore, to mitigate the reach of this advantage, there is a <b>maximum weight rule</b> that limits the stake per parent node to 1 ETH. This will prevent manipulation and will also let players measure their odds with more precision.<br>
+ 
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/004.gif" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel spotlight medium left" id="first">
+								<div class="content span-7-90">
+									<h2 class="major">Always Liquid</h2>
+							    <p>All the ether that goes into the game in the form of stakes is self-managed by the contract and no human has authority over it. No leaks and no fees, all ether goes straight to the market cap and the contract has explicit rules to always liquidate sweeps at the current market price. Liquidated sweeps are automatically burned to keep the price stable.<br>
+The upsweep is a smart contract that can't be shut down and will always exist for as long as the ethereum blockchain does. No one owns the upsweep, and no one controls it. 
+
+</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/005.gif" alt="" />
+								</div>
+							</section>
+
+
+						
+
+
+					</div>
+
+			</div>
+
+				
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
